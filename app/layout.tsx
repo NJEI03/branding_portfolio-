@@ -21,8 +21,13 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+<<<<<<< codex/create-personal-brand-website-for-musician-th5cp1
   title: "D’Bediance | Sound With Purpose",
   description: "Official website of D’Bediance, a disciplined and purpose-driven musical identity."
+=======
+  title: "Sound With Purpose",
+  description: "A disciplined and purpose-driven musical identity."
+>>>>>>> main
 };
 
 export default function RootLayout({
@@ -35,7 +40,11 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} ${cormorant.variable}`}>
         <header className="site-nav">
           <Link href="/" className="brand-mark">
+<<<<<<< codex/create-personal-brand-website-for-musician-th5cp1
             D’Bediance
+=======
+            Sound With Purpose
+>>>>>>> main
           </Link>
           <nav>
             <Link href="/about">About</Link>

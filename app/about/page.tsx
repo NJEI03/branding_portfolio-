@@ -6,33 +6,33 @@ export default function AboutPage() {
         <h1>D’Bediance — Calm Strength. Enduring Purpose.</h1>
       </header>
 
-      <section className="about-layout" aria-label="Artist story">
-        <div className="portrait-panel" role="img" aria-label="Black and white portrait" />
+<section className="about-layout" aria-label="Artist story">
+  <div className="portrait-panel" role="img" aria-label="Black and white portrait" />
 
-        <article className="story-panel">
-          <p className="story-lead">
-            Raised in Cameroon, he was shaped by resilience, restraint, and respect
-            for responsibility.
-          </p>
-          <p>
-            Discipline became his daily standard. Over time, that same discipline
-            defined his sound: intentional, precise, and built to endure.
-          </p>
-          <p>
-            Music is not treated as noise. It is treated as duty—crafted with care,
-            carried with purpose.
-          </p>
-          <blockquote>
-            “Some serve loudly. Others serve quietly.”
-          </blockquote>
-        </article>
-      </section>
+  <article className="story-panel">
+    <p className="story-lead">
+      Raised in Cameroon, he was shaped by resilience, restraint, and respect
+      for responsibility.
+    </p>
+    <p>
+      Discipline became his daily standard. Over time, that same discipline
+      defined his sound: intentional, precise, and built to endure.
+    </p>
+    <p>
+      Music is not treated as noise. It is treated as duty—crafted with care,
+      carried with purpose.
+    </p>
+    <blockquote>
+      “Some serve loudly. Others serve quietly.”
+    </blockquote>
+  </article>
+</section>
 
-      <section className="timeline" aria-label="Career timeline">
-        <h2>Timeline</h2>
-        <ol>
-          <li>
-            <span>Early Life</span>
+<section className="timeline" aria-label="Career timeline">
+  <h2>Timeline</h2>
+  <ol>
+    <li>
+      <span>Early Life</span>
             <p>
               Foundations formed in Cameroon through family values, discipline, and
               consistency.

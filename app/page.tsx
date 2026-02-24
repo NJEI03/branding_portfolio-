@@ -6,7 +6,11 @@ export default function Home() {
       <section className="hero-section" aria-label="Hero">
         <div className="hero-overlay" />
         <div className="hero-content">
+<<<<<<< codex/create-personal-brand-website-for-musician-th5cp1
           <p className="hero-kicker">D’Bediance</p>
+=======
+          <p className="hero-kicker">Sound With Purpose</p>
+>>>>>>> main
           <h1>Discipline. Sound. Service.</h1>
           <p className="hero-subtext">From Cameroon to the world.</p>
           <div className="hero-actions">

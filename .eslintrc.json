@@ -1,3 +1,7 @@
 {
+<<<<<<< codex/create-personal-brand-website-for-musician-th5cp1
   "extends": ["next/core-web-vitals"]
+=======
+  "extends": ["next/core-web-vitals", "next/typescript"]
+>>>>>>> main
 }
