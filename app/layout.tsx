@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, Playfair_Display } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({
@@ -32,7 +33,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable} ${cormorant.variable}`}>
+        <header className="site-nav">
+          <Link href="/" className="brand-mark">
+            Sound With Purpose
+          </Link>
+          <nav>
+            <Link href="/about">About</Link>
+            <Link href="/music">Music</Link>
+            <Link href="/mission">Mission</Link>
+            <Link href="/press">Press</Link>
+            <Link href="/contact">Contact</Link>
+          </nav>
+        </header>
         {children}
+        <footer className="site-footer">
+          <span>Cameroon</span>
+          <span className="divider" aria-hidden="true" />
+          <span>Intentional Artistry</span>
+        </footer>
       </body>
     </html>
   );
