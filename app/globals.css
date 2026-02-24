@@ -49,6 +49,7 @@ a {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .site-nav nav a {
@@ -62,7 +63,7 @@ a {
 .inner-page {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: clamp(1.3rem, 2.4vw, 2rem) clamp(1rem, 3vw, 1.5rem) clamp(2.5rem, 5vw, 4rem);
 }
 
 .hero-section {
@@ -71,7 +72,7 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
   background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1600&q=80");
   background-size: cover;
   background-position: center;
@@ -87,7 +88,7 @@ a {
   position: relative;
   max-width: 680px;
   display: grid;
-  gap: 1.1rem;
+  gap: clamp(0.85rem, 1.7vw, 1.1rem);
 }
 
 .hero-kicker {
@@ -124,6 +125,7 @@ h1 {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .gold-link-button {
@@ -152,7 +154,7 @@ h1 {
 .statement-section {
   display: grid;
   place-items: center;
-  min-height: 32vh;
+  min-height: clamp(220px, 32vh, 420px);
   text-align: center;
 }
 
@@ -196,7 +198,7 @@ h1 {
 .reel-section {
   position: relative;
   overflow: hidden;
-  min-height: 50vh;
+  min-height: clamp(280px, 50vh, 560px);
   border: 1px solid rgba(198, 168, 78, 0.2);
 }
 
@@ -325,11 +327,85 @@ h1 {
 }
 
 @media (max-width: 860px) {
+  .site-nav {
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 0.95rem 1rem;
+  }
+
+  .site-nav nav {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.85rem;
+  }
+
+  .site-nav nav a {
+    font-size: 0.8rem;
+  }
+
+  .hero-section {
+    min-height: 72vh;
+  }
+
+  .embed-grid iframe {
+    min-height: 310px;
+  }
+
   .about-layout {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
   .portrait-panel {
     min-height: 380px;
+  }
+
+  .site-footer {
+    flex-wrap: wrap;
+    row-gap: 0.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-section {
+    min-height: 66vh;
+    align-items: flex-end;
+    padding-bottom: 1.2rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .gold-link-button {
+    font-size: 0.76rem;
+  }
+
+  .statement-section p {
+    font-size: clamp(1.05rem, 5.5vw, 1.4rem);
+  }
+
+  .release-card {
+    padding: 1rem;
+  }
+
+  .embed-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .embed-grid iframe {
+    min-height: 280px;
+  }
+
+  .reel-overlay {
+    padding: 1rem;
+  }
+
+  .portrait-panel {
+    min-height: 320px;
   }
 }
