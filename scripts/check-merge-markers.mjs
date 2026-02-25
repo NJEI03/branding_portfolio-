@@ -5,7 +5,7 @@ const files = execSync("git ls-files", { encoding: "utf8" })
   .split("\n")
   .filter(Boolean);
 
-const markers = ["<<<<<<<", "=======", ">>>>>>>"];
+const markers = ["<" + "<<<<<<", "=" + "======", ">" + ">>>>>>"];
 const issues = [];
 
 for (const file of files) {
