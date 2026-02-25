@@ -72,23 +72,42 @@ export default function MusicPage() {
       <section id="streaming-links" className="music-links" aria-label="Streaming and social links">
         <h2>Streaming & Latest Release Links</h2>
         <div className="music-link-list">
-          <a href="https://open.spotify.com" target="_blank" rel="noreferrer">
-            Spotify
+          <a href="https://open.spotify.com" target="_blank" rel="noreferrer" aria-label="Spotify" title="Spotify">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.8 15.1a.8.8 0 0 1-1.1.3c-3-1.8-6.8-2.1-11.2-.9a.8.8 0 1 1-.4-1.6c4.9-1.3 9.1-1 12.5 1 .4.2.5.8.2 1.2Zm1.6-2.9a1 1 0 0 1-1.3.4c-3.5-2.1-8.8-2.7-12.9-1.2a1 1 0 1 1-.7-1.9c4.8-1.8 10.7-1.2 14.6 1.3.5.3.6 1 .3 1.4Zm.2-3a1.2 1.2 0 0 1-1.6.4C13 8.8 6.9 8.6 3.3 9.8a1.2 1.2 0 1 1-.8-2.3c4.1-1.4 10.9-1.1 15.6 1.6.6.3.8 1 .5 1.6Z" />
+            </svg>
+            <span className="sr-only">Spotify</span>
           </a>
-          <a href="https://music.apple.com" target="_blank" rel="noreferrer">
-            Apple Music
+          <a href="https://music.apple.com" target="_blank" rel="noreferrer" aria-label="Apple Music" title="Apple Music">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M16.7 12.6c0-2.1 1.7-3.1 1.8-3.2-1-1.4-2.5-1.5-3-1.6-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.9.9-3.6 2.2-1.6 2.8-.4 7 1.1 9.2.8 1.1 1.7 2.3 2.9 2.2 1.1 0 1.6-.7 3-.7 1.4 0 1.8.7 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.6 1.3-2.7 0 0-2.3-.9-2.3-3.9ZM14.7 6.6c.7-.9 1.1-2.1 1-3.3-1 .1-2.2.7-2.9 1.6-.6.7-1.2 2-1 3.2 1.1.1 2.2-.5 2.9-1.5Z" />
+            </svg>
+            <span className="sr-only">Apple Music</span>
           </a>
-          <a href="https://audiomack.com" target="_blank" rel="noreferrer">
-            Audiomack
+          <a href="https://audiomack.com" target="_blank" rel="noreferrer" aria-label="Audiomack" title="Audiomack">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M4 7.5h2v9H4v-9Zm3.5-2h2v13h-2v-13Zm3.5 4h2v5h-2v-5Zm3.5-6h2v17h-2v-17Zm3.5 3h2v11h-2v-11Z" />
+            </svg>
+            <span className="sr-only">Audiomack</span>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-            YouTube
+          <a href="https://www.youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M21.8 8.2a2.8 2.8 0 0 0-2-2c-1.8-.5-7.8-.5-7.8-.5s-6 0-7.8.5a2.8 2.8 0 0 0-2 2A29.9 29.9 0 0 0 1.7 12c0 1.3.2 2.6.5 3.8a2.8 2.8 0 0 0 2 2c1.8.5 7.8.5 7.8.5s6 0 7.8-.5a2.8 2.8 0 0 0 2-2c.3-1.2.5-2.5.5-3.8 0-1.3-.2-2.6-.5-3.8ZM10 15.1V8.9l5.4 3.1-5.4 3.1Z" />
+            </svg>
+            <span className="sr-only">YouTube</span>
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
-            Instagram Updates
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm6.4-8.4a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z" />
+              <path d="M17.4 2.8H6.6A3.8 3.8 0 0 0 2.8 6.6v10.8a3.8 3.8 0 0 0 3.8 3.8h10.8a3.8 3.8 0 0 0 3.8-3.8V6.6a3.8 3.8 0 0 0-3.8-3.8Zm2 14.6c0 1.1-.9 2-2 2H6.6c-1.1 0-2-.9-2-2V6.6c0-1.1.9-2 2-2h10.8c1.1 0 2 .9 2 2v10.8Z" />
+            </svg>
+            <span className="sr-only">Instagram</span>
           </a>
-          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">
-            TikTok Snippets
+          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer" aria-label="TikTok" title="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M14.7 3h2.7c.2 1.7 1.4 3.1 3 3.6v2.8a7.1 7.1 0 0 1-3-.7v5.8a6.2 6.2 0 1 1-6.2-6.2c.4 0 .8 0 1.2.1v2.8a3.4 3.4 0 1 0 2.3 3.3V3Z" />
+            </svg>
+            <span className="sr-only">TikTok</span>
           </a>
         </div>
       </section>

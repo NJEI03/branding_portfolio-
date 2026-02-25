@@ -442,12 +442,31 @@ h1 {
 }
 
 .music-link-list a {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
   border: 1px solid rgba(198, 168, 78, 0.3);
-  padding: 0.5rem 0.8rem;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
+  border-radius: 999px;
   transition: border-color 250ms ease, transform 250ms ease;
+}
+
+.music-link-list a svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .music-link-list a:hover {
@@ -679,8 +698,8 @@ h1 {
     row-gap: 0.45rem;
   }
 
-  .pillars-grid {
-    grid-template-columns: 1fr;
+  .video-grid iframe {
+    min-height: 250px;
   }
 }
 
