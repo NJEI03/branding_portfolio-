@@ -113,11 +113,7 @@ export default function MusicPage() {
       </section>
 
       <section className="lyrics-panel" aria-label="Lyrics excerpt">
-        <h2>Lyrics</h2>
-        <p>
-          “From red earth roads to city midnight lights, every chorus carries
-          home — steady drums, clear voice, and a future carved in rhythm.”
-        </p>
+        
       </section>
 
       <section className="video-section" aria-label="Music videos">
@@ -130,7 +126,7 @@ export default function MusicPage() {
             allowFullScreen
           />
           <iframe
-            src="https://www.youtube.com/embed/9bZkp7q19f0"
+            src="https://www.youtube.com/watch?v=moW06KHI6qY"
             title="Music video two"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
