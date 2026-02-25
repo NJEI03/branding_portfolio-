@@ -6,8 +6,8 @@ export default function ContactPage() {
         <h1>Direct Inquiries</h1>
       </header>
       <p className="page-text">
-        For bookings, partnerships, and official requests, use the secure channel
-        provided by management.
+        For bookings, partnerships, and official requests for D’Bediance, use
+        the secure channel provided by management.
       </p>
     </main>
   );

@@ -6,7 +6,8 @@ export default function PressPage() {
         <h1>Media & Features</h1>
       </header>
       <p className="page-text">
-        Official features, interviews, and appearances will be curated here.
+        Official features, interviews, and appearances related to D’Bediance
+        will be curated here.
       </p>
     </main>
   );

@@ -3,25 +3,28 @@ export default function AboutPage() {
     <main className="inner-page about-page">
       <header className="page-header">
         <p className="hero-kicker">About</p>
-        <h1>Calm Strength. Enduring Purpose.</h1>
+        <h1>D’Bediance — Calm Strength. Enduring Purpose.</h1>
       </header>
 
-      <section className="about-layout">
-        <div className="portrait-panel" aria-hidden="true" />
+      <section className="about-layout" aria-label="Artist story">
+        <div className="portrait-panel" role="img" aria-label="Black and white portrait" />
 
         <article className="story-panel">
-          <p>
-            Raised in Cameroon, he learned early that resilience is not performative.
-            It is practiced quietly, day after day.
+          <p className="story-lead">
+            Raised in Cameroon, he was shaped by resilience, restraint, and respect
+            for responsibility.
           </p>
           <p>
-            His discipline shaped his craft. His craft shaped his mission. Music
-            became a form of responsibility—measured, intentional, and precise.
+            Discipline became his daily standard. Over time, that same discipline
+            defined his sound: intentional, precise, and built to endure.
           </p>
           <p>
-            Some serve loudly. Others serve quietly. His work belongs to the
-            second path.
+            Music is not treated as noise. It is treated as duty—crafted with care,
+            carried with purpose.
           </p>
+          <blockquote>
+            “Some serve loudly. Others serve quietly.”
+          </blockquote>
         </article>
       </section>
 
@@ -30,19 +33,31 @@ export default function AboutPage() {
         <ol>
           <li>
             <span>Early Life</span>
-            <p>Foundations built through discipline, family values, and focus.</p>
+            <p>
+              Foundations formed in Cameroon through family values, discipline, and
+              consistency.
+            </p>
           </li>
           <li>
             <span>First Project</span>
-            <p>First independent body of work established his artistic direction.</p>
+            <p>
+              First official release established a clear artistic direction and
+              principled voice.
+            </p>
           </li>
           <li>
             <span>National Recognition</span>
-            <p>Respected presence across Cameroon for consistency and depth.</p>
+            <p>
+              Earned respect across Cameroon for thoughtful lyrics and measured
+              execution.
+            </p>
           </li>
           <li>
             <span>International Growth</span>
-            <p>Audience expanded globally while preserving identity and standards.</p>
+            <p>
+              Expanded to wider audiences while preserving identity, standards, and
+              mission.
+            </p>
           </li>
         </ol>
       </section>

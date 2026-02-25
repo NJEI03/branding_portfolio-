@@ -6,8 +6,8 @@ export default function MusicPage() {
         <h1>Rhythm As Discipline</h1>
       </header>
       <p className="page-text">
-        A catalog built with intentional structure, lyrical clarity, and enduring
-        sonic identity.
+        D’Bediance’s catalog is built with intentional structure, lyrical
+        clarity, and enduring sonic identity.
       </p>
     </main>
   );

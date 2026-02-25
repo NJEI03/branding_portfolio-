@@ -6,7 +6,7 @@ export default function Home() {
       <section className="hero-section" aria-label="Hero">
         <div className="hero-overlay" />
         <div className="hero-content">
-          <p className="hero-kicker">Sound With Purpose</p>
+          <p className="hero-kicker">D’Bediance</p>
           <h1>Discipline. Sound. Service.</h1>
           <p className="hero-subtext">From Cameroon to the world.</p>
           <div className="hero-actions">

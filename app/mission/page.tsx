@@ -6,8 +6,8 @@ export default function MissionPage() {
         <h1>Service Without Noise</h1>
       </header>
       <p className="page-text">
-        The mission is clear: influence through excellence, represent with
-        loyalty, and build culture through disciplined art.
+        D’Bediance’s mission is clear: influence through excellence, represent
+        with loyalty, and build culture through disciplined art.
       </p>
     </main>
   );
