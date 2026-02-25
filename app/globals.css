@@ -339,6 +339,112 @@ h1 {
   opacity: 0.55;
 }
 
+/* ── Mission page ── */
+
+.mission-separator {
+  width: 60px;
+  height: 2px;
+  margin: 3rem auto;
+  background: var(--muted-gold);
+  opacity: 0.45;
+}
+
+.mission-pillars {
+  margin-top: 1rem;
+}
+
+.mission-pillars h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.pillar-card {
+  border: 1px solid rgba(198, 168, 78, 0.2);
+  padding: 1.8rem 1.5rem;
+  background: rgba(11, 61, 46, 0.06);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.pillar-icon {
+  font-size: 1.1rem;
+  color: var(--muted-gold);
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.pillar-card h3 {
+  margin: 0;
+  font-family: var(--font-playfair), serif;
+  font-weight: 600;
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  line-height: 1.25;
+}
+
+.pillar-card p {
+  margin: 0;
+  font-size: clamp(0.92rem, 1.3vw, 1.02rem);
+  color: rgba(244, 241, 232, 0.85);
+  line-height: 1.65;
+}
+
+.mission-stats {
+  margin-top: 1rem;
+}
+
+.mission-stats h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.stat-card {
+  display: grid;
+  gap: 0.4rem;
+  padding: 2rem 1rem;
+  border: 1px solid rgba(198, 168, 78, 0.18);
+}
+
+.stat-number {
+  font-family: var(--font-playfair), serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: var(--muted-gold);
+  line-height: 1.1;
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(244, 241, 232, 0.7);
+}
+
+.mission-closing {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.mission-closing p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(1.15rem, 2vw, 1.7rem);
+  color: var(--muted-gold);
+}
+
 @media (max-width: 860px) {
   .site-nav {
     position: static;
@@ -378,6 +484,10 @@ h1 {
   .site-footer {
     flex-wrap: wrap;
     row-gap: 0.45rem;
+  }
+
+  .pillars-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -420,5 +530,14 @@ h1 {
 
   .portrait-panel {
     min-height: 320px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1.4rem 1rem;
   }
 }
