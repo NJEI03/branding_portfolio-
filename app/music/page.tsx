@@ -40,8 +40,9 @@ export default function MusicPage() {
       </header>
 
       <p className="page-text">
-        A curated body of sound with artistic album concepts, visual storytelling,
-        and live moments from standout stages and cultural events.
+        D’Bediance is a prolific Afrobeats singer, songwriter, actor, and
+        performer from Cameroon. Welcome to the world of hype and
+        entertainment.
       </p>
 
       <section className="album-section" aria-label="Album concepts">
@@ -84,26 +85,26 @@ export default function MusicPage() {
             </svg>
             <span className="sr-only">Apple Music</span>
           </a>
-          <a href="https://audiomack.com" target="_blank" rel="noreferrer" aria-label="Audiomack" title="Audiomack">
+          <a href="https://www.facebook.com/share/1AmKgNFCq7/" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-              <path d="M4 7.5h2v9H4v-9Zm3.5-2h2v13h-2v-13Zm3.5 4h2v5h-2v-5Zm3.5-6h2v17h-2v-17Zm3.5 3h2v11h-2v-11Z" />
+              <path d="M13.4 21v-7h2.3l.4-2.8h-2.7V9.4c0-.8.2-1.4 1.4-1.4h1.5V5.5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.8 1.4-3.8 3.9v2h-2.5V14h2.5v7h3.1Z" />
             </svg>
-            <span className="sr-only">Audiomack</span>
+            <span className="sr-only">Facebook</span>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+          <a href="https://youtube.com/@dbediance?si=EZ0VpUA2eZZzqZCm" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M21.8 8.2a2.8 2.8 0 0 0-2-2c-1.8-.5-7.8-.5-7.8-.5s-6 0-7.8.5a2.8 2.8 0 0 0-2 2A29.9 29.9 0 0 0 1.7 12c0 1.3.2 2.6.5 3.8a2.8 2.8 0 0 0 2 2c1.8.5 7.8.5 7.8.5s6 0 7.8-.5a2.8 2.8 0 0 0 2-2c.3-1.2.5-2.5.5-3.8 0-1.3-.2-2.6-.5-3.8ZM10 15.1V8.9l5.4 3.1-5.4 3.1Z" />
             </svg>
             <span className="sr-only">YouTube</span>
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
+          <a href="https://www.instagram.com/_dbediance?igsh=YnRtZzQ4bjF4Z3Ji" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm6.4-8.4a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z" />
               <path d="M17.4 2.8H6.6A3.8 3.8 0 0 0 2.8 6.6v10.8a3.8 3.8 0 0 0 3.8 3.8h10.8a3.8 3.8 0 0 0 3.8-3.8V6.6a3.8 3.8 0 0 0-3.8-3.8Zm2 14.6c0 1.1-.9 2-2 2H6.6c-1.1 0-2-.9-2-2V6.6c0-1.1.9-2 2-2h10.8c1.1 0 2 .9 2 2v10.8Z" />
             </svg>
             <span className="sr-only">Instagram</span>
           </a>
-          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer" aria-label="TikTok" title="TikTok">
+          <a href="https://www.tiktok.com/@dbediance.official?_r=1&_t=ZS-93OE8yQ9AGe" target="_blank" rel="noreferrer" aria-label="TikTok" title="TikTok">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M14.7 3h2.7c.2 1.7 1.4 3.1 3 3.6v2.8a7.1 7.1 0 0 1-3-.7v5.8a6.2 6.2 0 1 1-6.2-6.2c.4 0 .8 0 1.2.1v2.8a3.4 3.4 0 1 0 2.3 3.3V3Z" />
             </svg>
@@ -112,13 +113,15 @@ export default function MusicPage() {
         </div>
       </section>
 
-      <section className="lyrics-panel" aria-label="Lyrics excerpt">
-        
-      </section>
-
       <section className="video-section" aria-label="Music videos">
         <h2>Music Videos</h2>
         <div className="video-grid">
+          <iframe
+            src="https://www.youtube.com/embed/moW06KHI6qY"
+            title="Biggest hit on YouTube"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
           <iframe
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="Music video one"
@@ -126,7 +129,7 @@ export default function MusicPage() {
             allowFullScreen
           />
           <iframe
-            src="https://www.youtube.com/watch?v=moW06KHI6qY"
+            src="https://www.youtube.com/embed/9bZkp7q19f0"
             title="Music video two"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
