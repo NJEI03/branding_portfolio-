@@ -26,10 +26,26 @@ export default function MusicPage() {
   ];
 
   const gallery = [
-    "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
-    "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=900&q=80",
-    "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=900&q=80",
-    "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80"
+    {
+      image:
+        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
+      caption: "City Lights Tour Poster · Douala Night Edition"
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=900&q=80",
+      caption: "Live Performance · Festival mainstage moment"
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=900&q=80",
+      caption: "Backstage Portrait · Media and press day"
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80",
+      caption: "Event Recap · Crowd energy and final set"
+    }
   ];
 
   return (
@@ -122,24 +138,35 @@ export default function MusicPage() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-          
-  
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Music video one"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            src="https://www.youtube.com/embed/9bZkp7q19f0"
+            title="Music video two"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </section>
 
       <section className="gallery-section" aria-label="Posters and event gallery">
         <h2>Posters, Performances & Events</h2>
         <div className="gallery-grid">
-          {gallery.map((image, index) => (
-            <figure key={image} className="gallery-item">
+          {gallery.map((entry, index) => (
+            <figure key={entry.image} className="gallery-item">
               <Image
-                src={image}
+                src={entry.image}
                 alt={`Performance moment ${index + 1}`}
                 className="gallery-image"
                 fill
                 unoptimized
                 sizes="(max-width: 860px) 100vw, 25vw"
               />
+              <figcaption>{entry.caption}</figcaption>
             </figure>
           ))}
         </div>
