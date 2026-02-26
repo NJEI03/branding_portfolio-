@@ -122,18 +122,8 @@ export default function MusicPage() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-          <iframe
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Music video one"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-          <iframe
-            src="https://www.youtube.com/embed/9bZkp7q19f0"
-            title="Music video two"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          
+  
         </div>
       </section>
 
