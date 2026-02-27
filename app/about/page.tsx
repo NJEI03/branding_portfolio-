@@ -1,9 +1,29 @@
+import "../globals.css"
+const films = [
+  {
+    title: "Rage Pass",
+    link: "https://www.youtube.com/watch?v=qYk8WZ4W"
+  },
+  {
+    title: "Mother Hen",
+    link: "https://www.youtube.com/watch?v=qYk8WZ4W"
+  },
+  {
+    title: "Reckoning",
+    link: "https://www.youtube.com/watch?v=qYk8WZ4W"
+  },
+];
+
+
+const filmStyles = "font-medium italic underline underline-offset-4 decoration-amber-500/40 text-amber-600 hover:text-amber-500 transition-colors";
+
+
 export default function AboutPage() {
   return (
     <main className="inner-page about-page">
       <header className="page-header">
         <p className="hero-kicker">About</p>
-        <h1>D’Bediance — Calm Strength. Enduring Purpose.</h1>
+        <h1>About D’Bediance </h1>
       </header>
 
       <section className="about-layout" aria-label="Artist story">
@@ -11,16 +31,19 @@ export default function AboutPage() {
 
         <article className="story-panel">
           <p className="story-lead">
-            Raised in Cameroon, he was shaped by resilience, restraint, and respect
-            for responsibility.
+            D'Bediance is a Cameroonian musician, actor and scriptwriter with a strong focus on dramatic
+            stroytelling.
           </p>
           <p>
-            Discipline became his daily standard. Over time, that same discipline
-            defined his sound: intentional, precise, and built to endure.
+            Known for his emotionally grounded performances, he has appeared in Cameroonian films such as <a href={films[0].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[0].title}</a>
+            ,<a href={films[1].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[1].title}</a>, and <a href={films[2].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[2].title}</a>, where his ability to embody complex characters has earned him growing recognition within the local film industry.
           </p>
           <p>
-            Music is not treated as noise. It is treated as duty—crafted with care,
-            carried with purpose.
+            Driven by passion for authentic African narratives, D'Bediance approaches acting as both an art and responsibility.
+          </p>
+          <p>
+            Beyong acting, D'Bediance is also a musician and scriptwriter. As a musician, he uses sound and rythm as another form of storytelling, while his work as a scriptwriter refelcts his interest in meaningful narratives that
+            challenge, inspire and reflect real-life experiences.
           </p>
           <blockquote>
             “Some serve loudly. Others serve quietly.”
