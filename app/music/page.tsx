@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function MusicPage() {
   const albums = [
     {
-      name: "Velvet Ember Protocol",
+      name: "Fou de Toi",
       year: "2025",
       image:
-        "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80",
+        "https://i.ibb.co/Cs5fp1CV/image.png",
       href: "#streaming-links"
     },
     {

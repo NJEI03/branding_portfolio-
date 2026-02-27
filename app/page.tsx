@@ -31,13 +31,13 @@ export default function Home() {
           <div className="embed-grid">
             <iframe
               title="Spotify latest release"
-              src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"
+              src="https://open.spotify.com/embed/track/38FEsmgIfhWMSr4jNpb0tJ?si=0Q4duPlAR7SkMqpjbCzqAQ"
               loading="lazy"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             />
             <iframe
               title="Apple Music latest release"
-              src="https://embed.music.apple.com/us/album/blinding-lights/1499378108?i=1499378115"
+              src="https://embed.music.apple.com/fr/song/fou-de-toi/1867302758"
               loading="lazy"
               allow="autoplay *; encrypted-media *; fullscreen *"
             />
@@ -51,7 +51,7 @@ export default function Home() {
           loop
           muted
           playsInline
-          poster="https://i.ibb.co/qYk8WZ4W/image.png"
+          poster="https://i.ibb.co/Cs5fp1CV/image.png"
         >
 
           <source
