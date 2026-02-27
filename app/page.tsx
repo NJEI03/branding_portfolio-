@@ -60,8 +60,8 @@ export default function Home() {
           />
         </video>
         <div className="reel-overlay">
-          <h2>Visual Reel</h2>
-          <p>Quiet intensity. Deliberate movement. A measured pace.</p>
+          <h2>New Single</h2>
+          <p>Fou de Toi - <span style={{ color: "#D4AF37" }}>2026</span></p>
         </div>
       </section>
 

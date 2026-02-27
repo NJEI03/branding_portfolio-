@@ -4,25 +4,25 @@ export default function MusicPage() {
   const albums = [
     {
       name: "Fou de Toi",
-      year: "2025",
+      year: "2026",
       image:
         "https://i.ibb.co/Cs5fp1CV/image.png",
-      href: "#streaming-links"
+      href: "https://music.apple.com/fr/song/fou-de-toi/1867302758"
     },
-    {
-      name: "Palmwine After Midnight",
-      year: "2024",
-      image:
-        "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=80",
-      href: "#streaming-links"
-    },
-    {
-      name: "Bronze Bloom Frequency",
-      year: "2023",
-      image:
-        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
-      href: "#streaming-links"
-    }
+    // {
+    //   name: "Palmwine After Midnight",
+    //   year: "2024",
+    //   image:
+    //     "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=80",
+    //   href: "#streaming-links"
+    // },
+    // {
+    //   name: "Bronze Bloom Frequency",
+    //   year: "2023",
+    //   image:
+    //     "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
+    //   href: "#streaming-links"
+    // }
   ];
 
   const gallery = [
@@ -89,13 +89,13 @@ export default function MusicPage() {
       <section id="streaming-links" className="music-links" aria-label="Streaming and social links">
         <h2>Streaming & Latest Release Links</h2>
         <div className="music-link-list">
-          <a href="https://open.spotify.com" target="_blank" rel="noreferrer" aria-label="Spotify" title="Spotify">
+          <a href="https://open.spotify.com/artist/6Sy3p34j9lfnpHw1iwroZO" target="_blank" rel="noreferrer" aria-label="Spotify" title="Spotify">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.8 15.1a.8.8 0 0 1-1.1.3c-3-1.8-6.8-2.1-11.2-.9a.8.8 0 1 1-.4-1.6c4.9-1.3 9.1-1 12.5 1 .4.2.5.8.2 1.2Zm1.6-2.9a1 1 0 0 1-1.3.4c-3.5-2.1-8.8-2.7-12.9-1.2a1 1 0 1 1-.7-1.9c4.8-1.8 10.7-1.2 14.6 1.3.5.3.6 1 .3 1.4Zm.2-3a1.2 1.2 0 0 1-1.6.4C13 8.8 6.9 8.6 3.3 9.8a1.2 1.2 0 1 1-.8-2.3c4.1-1.4 10.9-1.1 15.6 1.6.6.3.8 1 .5 1.6Z" />
             </svg>
             <span className="sr-only">Spotify</span>
           </a>
-          <a href="https://music.apple.com" target="_blank" rel="noreferrer" aria-label="Apple Music" title="Apple Music">
+          <a href="https://music.apple.com/fr/artist/dbediance/1867239363" target="_blank" rel="noreferrer" aria-label="Apple Music" title="Apple Music">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M16.7 12.6c0-2.1 1.7-3.1 1.8-3.2-1-1.4-2.5-1.5-3-1.6-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.9.9-3.6 2.2-1.6 2.8-.4 7 1.1 9.2.8 1.1 1.7 2.3 2.9 2.2 1.1 0 1.6-.7 3-.7 1.4 0 1.8.7 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.6 1.3-2.7 0 0-2.3-.9-2.3-3.9ZM14.7 6.6c.7-.9 1.1-2.1 1-3.3-1 .1-2.2.7-2.9 1.6-.6.7-1.2 2-1 3.2 1.1.1 2.2-.5 2.9-1.5Z" />
             </svg>
@@ -138,18 +138,7 @@ export default function MusicPage() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-          <iframe
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Music video one"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-          <iframe
-            src="https://www.youtube.com/embed/9bZkp7q19f0"
-            title="Music video two"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+
         </div>
       </section>
 
