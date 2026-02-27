@@ -51,8 +51,9 @@ export default function Home() {
           loop
           muted
           playsInline
-          poster="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1600&q=80"
+          poster="https://i.ibb.co/qYk8WZ4W/image.png"
         >
+
           <source
             src="https://cdn.coverr.co/videos/coverr-young-man-playing-guitar-1579/1080p.mp4"
             type="video/mp4"
