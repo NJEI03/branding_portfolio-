@@ -28,23 +28,23 @@ export default function MusicPage() {
   const gallery = [
     {
       image:
-        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
-      caption: "City Lights Tour Poster · Douala Night Edition"
+        "https://i.ibb.co/21BnwqrH/image.png",
+      caption: "RECKONING PREMIERE · Douala, Cameroon "
     },
     {
       image:
-        "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=900&q=80",
-      caption: "Live Performance · Festival mainstage moment"
+        "https://i.ibb.co/0yjP8Pft/image.png",
+      caption: "OUTSIDER PREMIERE· Douala, Cameroon"
     },
     {
       image:
-        "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?auto=format&fit=crop&w=900&q=80",
-      caption: "Backstage Portrait · Media and press day"
+        "https://i.ibb.co/D27Tzx7/image.png",
+      caption: "Premiere and press day"
     },
     {
       image:
-        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80",
-      caption: "Event Recap · Crowd energy and final set"
+        "https://i.ibb.co/4nXJLh1K/image.png",
+      caption: "Backstage Portrait"
     }
   ];
 
