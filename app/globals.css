@@ -1,8 +1,3 @@
-/* app/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --forest-green: #0b3d2e;
   --midnight-black: #0a0a0a;
