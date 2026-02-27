@@ -36,7 +36,8 @@ export default function AboutPage() {
           </p>
           <p>
             Known for his emotionally grounded performances, he has appeared in Cameroonian films such as <a href={films[0].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[0].title}</a>
-            ,<a href={films[1].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[1].title}</a>, and <a href={films[2].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[2].title}</a>, where his ability to embody complex characters has earned him growing recognition within the local film industry.
+            ,<a href={films[1].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[1].title}</a>, and <a href={films[2].link} style={{ color: "#D4AF37", fontStyle: "italic", fontSize: "medium" }}>{films[2].title}</a>, where his ability to embody complex characters has earned
+            him growing recognition within the local film industry.
           </p>
           <p>
             Driven by passion for authentic African narratives, D'Bediance approaches acting as both an art and responsibility.
